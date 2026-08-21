@@ -35,17 +35,6 @@ header {
 .navigation a:hover {
     color: #1cbeb1;
 }
-label {
-    display: flex;
-    color: #ffffff;
-}
-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 4rem auto;
-    max-width: 1800px;
-}
 hr {
     opacity: 50%;
 }
@@ -62,8 +51,6 @@ ul {
     gap: 2rem;
     color: #ffffff;
 }
-
-@MEDIA (max-width: 1023px) {
     @media (max-width: 1023px) {
   header {
     margin-left: 1rem;
