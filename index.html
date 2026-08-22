@@ -2,13 +2,14 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+        <script src="main.js" defer></script>
     </head>
     <body>
 
         <header>
             <nav class="navigation">
                 <ul>
-                    <li><a href="index.html">the main</a></li>
+                    <li><a href="index.html">home</a></li>
                     <li><a href="#about me">about me</a></li>
                     <li><a href="#contact">contact</a></li>
                 </ul>
@@ -25,6 +26,59 @@
         <section class="footer">
             <p>&copy; 2026 My Website. All rights reserved.</p>
         </section>
+    <section class="expense-form">
+
+    <h2>Add Transaction</h2>
+
+    <input
+        type="text"
+        id="name"
+        placeholder="Transaction name"
+    >
+
+    <input
+        type="number"
+        id="amount"
+        placeholder="Amount"
+    >
+
+    <select id="type">
+        <option value="expense">Expense</option>
+        <option value="income">Income</option>
+    </select>
+
+    <button id="addButton">Add Transaction</button>
+
+</section>
+
+
+<section class="summary">
+
+    <div>
+        <h3>Total Income</h3>
+        <p id="totalIncome">0 EGP</p>
+    </div>
+
+    <div>
+        <h3>Total Expenses</h3>
+        <p id="totalExpenses">0 EGP</p>
+    </div>
+
+    <div>
+        <h3>Remaining</h3>
+        <p id="balance">0 EGP</p>
+    </div>
+
+</section>
+
+
+<section class="transactions">
+
+    <h2>Transactions</h2>
+
+    <div id="transactionList"></div>
+
+</section>
         <section class="about me" id="about me">
             <div class="textcontainer">
                 <div class="text tittle">
