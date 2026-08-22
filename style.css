@@ -470,4 +470,162 @@ h3 {
         margin-top: 5px;
     }
 }   
+/* =========================
+   Mobile Professional Design
+   ========================= */
+
+@media (max-width: 600px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Header */
+    header {
+        padding: 18px 20px;
+    }
+
+    .navigation ul {
+        gap: 14px;
+    }
+
+    .navigation a {
+        font-size: 14px;
+    }
+
+    header img {
+        width: 58px;
+        height: 58px;
+    }
+
+
+    /* Welcome Section */
+    .content {
+        padding: 80px 25px;
+        margin-bottom: 100px;
+    }
+
+    .content h1 {
+        font-size: 32px;
+        line-height: 1.3;
+        margin-bottom: 25px;
+    }
+
+    .content p {
+        font-size: 18px;
+        line-height: 1.8;
+    }
+
+
+    /* Expense Form */
+    .expense-form {
+        width: 90%;
+        margin: 80px auto 120px;
+        padding: 30px 20px;
+    }
+
+    .expense-form h2 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .expense-form input,
+    .expense-form select,
+    .expense-form button {
+        font-size: 17px;
+        padding: 15px;
+    }
+
+
+    /* Summary */
+    .summary {
+        width: 90%;
+        margin: 100px auto 130px;
+        gap: 25px;
+    }
+
+    .summary div {
+        width: 100%;
+        max-width: 360px;
+        padding: 28px 20px;
+    }
+
+    .summary h3 {
+        font-size: 19px;
+    }
+
+    .summary p {
+        font-size: 18px;
+    }
+
+
+    /* Transactions */
+    .transactions {
+        width: 90%;
+        margin: 100px auto 140px;
+    }
+
+    .transactions h2 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .transaction {
+        width: 100%;
+        padding: 18px 15px;
+        margin: 15px auto;
+        font-size: 17px;
+        line-height: 1.6;
+    }
+
+
+    /* About Me */
+    .about {
+        width: 90%;
+        margin: 120px auto 150px;
+        padding: 40px 10px;
+    }
+
+    .about h1 {
+        font-size: 34px;
+        margin-bottom: 30px;
+    }
+
+    .about p {
+        font-size: 18px;
+        line-height: 1.9;
+    }
+
+
+    /* Contact */
+    .contact {
+        width: 90%;
+        margin: 120px auto 120px;
+        padding: 40px 10px;
+    }
+
+    .contact h1 {
+        font-size: 34px;
+        margin-bottom: 30px;
+    }
+
+    .contact p,
+    .contact li {
+        font-size: 18px;
+        line-height: 1.9;
+    }
+
+
+    /* Footer */
+    footer {
+        padding: 40px 20px;
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    footer p {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+}
 
