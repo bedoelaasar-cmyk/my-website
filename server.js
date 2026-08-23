@@ -8,11 +8,10 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "../HTML/login.html"));
+    res.sendFile(path.join(__dirname, "login.html"));
 });
 
-app.use(express.static(path.join(__dirname, "../HTML")));
-
+app.use(express.static(__dirname));
 app.post("/signup", async (req, res) => {
     const { name, email, password } = req.body;
 
